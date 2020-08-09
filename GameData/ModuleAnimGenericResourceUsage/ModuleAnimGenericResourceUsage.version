@@ -1,0 +1,21 @@
+{
+  "NAME": "ModuleAnimGenericResourceUsage",
+  "URL": "http://ksp.spacetux.net/avc/ModuleAnimGenericResourceUsage",
+  "DOWNLOAD": "https://github.com/linuxgurugamer/ModuleAnimGenericResourceUsage/releases",
+  "VERSION": {
+    "MAJOR": 0,
+    "MINOR": 0,
+    "PATCH": 0,
+    "BUILD": 4
+  },
+  "KSP_VERSION": {
+    "MAJOR": 1,
+    "MINOR": 8,
+    "PATCH": 1
+  },
+  "KSP_VERSION_MIN": {
+    "MAJOR": 1,
+    "MINOR": 8,
+    "PATCH": 0
+  }
+}
