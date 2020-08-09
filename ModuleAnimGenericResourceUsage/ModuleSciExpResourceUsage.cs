@@ -15,7 +15,6 @@ namespace AnimateWithResources
         Log Log;
 
         int? resourceId;
-        //double resPerTic;
 
         [KSPField]
         public string ResourceUsed = "";
@@ -117,7 +116,5 @@ namespace AnimateWithResources
                 yield return wait;
             }
         }
-
-
     }
 }

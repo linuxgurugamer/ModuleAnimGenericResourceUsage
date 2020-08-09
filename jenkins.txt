@@ -35,8 +35,8 @@
 
 # 3:SOURCEFILE, DESTDIR
 3:ModuleAnimGenericResourceUsage.version,GameData/ModuleAnimGenericResourceUsage
-3:License.txt,GameData/KerbalHotSeat
-3:README.txt,GameData/KerbalHotSeat
+3:License.txt,GameData/ModuleAnimGenericResourceUsage
+3:README.txt,GameData/ModuleAnimGenericResourceUsage
 
 # 4:SOURCDIR, DESTDIR
 #4:Textures,GameData/ManeuverQueue/Textures
