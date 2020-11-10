@@ -3,12 +3,12 @@ using UnityEngine;
 using KSP;
 using KSP.UI.Screens;
 using System.Collections;
+using KSP_Log;
 
 namespace AnimateWithResources
 {
     public class ModuleAnimGenericResourceUsage : ModuleAnimateGeneric
     {
-
         #region KSPFields
 
         [KSPField]

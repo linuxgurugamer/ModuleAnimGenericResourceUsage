@@ -13,8 +13,8 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
-
-namespace ModuleAnimGenericResourceUsage
+#if false
+namespace AnimateWithResources
 {
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     internal class Startup : MonoBehaviour
@@ -97,3 +97,4 @@ namespace ModuleAnimGenericResourceUsage
     }
 }
 
+#endif

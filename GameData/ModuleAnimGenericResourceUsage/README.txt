@@ -71,3 +71,25 @@ The following is an example:
 	ResourceAmtUsedForDeploy	The amount of resources used to start the animation
 	MinimumResAmt				The minimum amount of resources needed to continue operation
 	PowerConsumption			How much of the resource is used per second
+
+===================================================================================================
+
+ModuleSciExpResourceUsage
+
+This small module simply makes sure that the needed rsources are available before starting the science experiment.  When triggered, the resources which needed to be available will be used (ie:  if 10 EC needed to be able to open a door and it has 15, then opening the door will use 10 ec, eaving 5).  If/when the available resources drop blow the minimum needed, the animation will stop
+
+This inherits all fields from ModuleScienceExperiment, and the animations, etc, work exactly as they do in ModuleScienceExperiment.
+
+The following is an example:
+
+	@PART[sensorAtmosphere]:HAS[@MODULE[ModuleScienceExperiment]]
+	{
+		@MODULE[ModuleScienceExperiment]
+		{
+			%name = ModuleSciExpResourceUsage
+
+			neededResourceToStart = ElectricCharge
+			ResourceAmtUsedForDeploy = 5
+			ResourceAmtUsedForReset = 10
+		}
+	}
